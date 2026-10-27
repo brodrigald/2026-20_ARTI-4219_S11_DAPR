@@ -13,6 +13,12 @@ spec:
     - name: redisPassword
       value: ""
 
+    - name: ttlInSeconds
+      value: "120"
+
+    - name: consumerID
+      value: "order-subscriber-{namespace}"
+
     # ---------------------------------------------------------------------------
     # TODO 1: Configurar Time-to-Live (TTL) para los mensajes
     # ---------------------------------------------------------------------------
